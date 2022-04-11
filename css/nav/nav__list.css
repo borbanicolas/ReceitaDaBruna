@@ -1,0 +1,12 @@
+.nav__list{
+    display: flex;
+    
+}
+.nav__list a{
+    color: black;
+    padding-right: 15px;
+    transition: all .2s ease-in-out;
+}
+.nav__list a:hover{
+    color: var(--primary-hover);
+}

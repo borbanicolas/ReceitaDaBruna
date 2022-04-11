@@ -1,0 +1,7 @@
+.nav__icons{
+    display: flex;
+ 
+}
+.nav__icon{
+    padding-right: 5px;
+}

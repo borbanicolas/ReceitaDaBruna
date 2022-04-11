@@ -1,0 +1,15 @@
+.receitas__filtro{
+    display: flex;
+    padding: 20px;
+    
+    
+}
+.receita__classe{
+    padding-right: 70px;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}.receita__classe:hover{
+    cursor: pointer;
+    color: var(--primary-hover);
+}
+

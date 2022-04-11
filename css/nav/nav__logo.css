@@ -1,0 +1,27 @@
+.nav__logo{
+    display: flex;
+    background: #fdfdfd;
+    width: 400px;
+    height: 76px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 9%;
+    transform: translate(-50%, -50%);
+    border: 6px solid black;
+    font-size: 24px;
+    -webkit-box-shadow: 0px 0px 9px -1px #000000; 
+    box-shadow: 0px 0px 9px -1px #000000;
+    letter-spacing: 7px;
+    font-weight: bolder;
+    color: black;
+    opacity: 1;
+    transition: all .4s ease-in-out;
+    z-index: 100000;
+}
+.nav__logo:hover{
+   color: var(--primary-hover);
+    cursor: pointer;
+}

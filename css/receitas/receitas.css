@@ -1,0 +1,29 @@
+.receitas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+#btnBusca {
+    width: 20px;
+}
+#btnBusca:hover{
+    cursor: pointer;
+}
+#txtBusca{
+    transition: all .2s ease-in-out;
+}
+.txtInativo{
+    width: 0;
+    opacity: 0;
+    transition: all 2s ease-in-out;
+}
+.txtAtivo{
+    opacity: 1;
+    width: 300px;
+}
+#divBusca{
+    padding-right: 30px;
+}
